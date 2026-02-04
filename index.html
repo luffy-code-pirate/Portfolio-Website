@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prahlad | Portfolio</title>
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome for social icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Prahlad's<span>Portfolio</span></div>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- THEME TOGGLE -->
+        <div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch" class="switch">
+    <span class="slider"></span>
+  </label>
+  
+</div>
+
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <div class="left-home">
+          <div>
+            <h1>Hello, I'm <span>Prahlad</span></h1>
+            <p>
+              A passionate web developer building modern and responsive
+              websites.
+            </p>
+          </div>
+          <div class="social-icons">
+            <a href="https://github.com/luffy-code-pirate" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/prahlad-kumar-jha-068934391"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/b_el_iev_er" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61585804767480"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+          <div>
+            <a href="resume.pdf" download class="btn">Download Resume</a>
+          </div>
+        </div>
+
+        <div class="profile-image">
+          <a href="pimage.jpg" target="_blank">
+            <img src="pimage.jpg" alt="Profile Image" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+  <h2>About Me</h2>
+
+  <div class="about-container">
+    <!-- Profile Image -->
+    <div class="about-image">
+      <img src="pimage.jpg" alt="Prahlad Profile Image">
+    </div>
+
+    <!-- About Content -->
+    <div class="about-content">
+      <input type="checkbox" id="read-more-toggle">
+
+      <p class="about-text">
+        I am Prahlad, a passionate web developer with strong knowledge of both
+        front-end and back-end development. I enjoy building modern, responsive,
+        and user-friendly websites that deliver smooth digital experiences.
+        <span class="more-text">
+          On the front end, I work with HTML, CSS, and JavaScript to create clean
+          designs and interactive interfaces. On the back end, I focus on logic,
+          functionality, and performance to ensure reliable applications. I
+          continuously learn new technologies and best practices to improve my
+          skills. I believe in writing clean, maintainable code and solving
+          real-world problems through web development. My goal is to grow as a
+          full-stack developer and contribute to impactful projects.
+        </span>
+      </p>
+
+      <!-- Read More Button -->
+      <label for="read-more-toggle" class="read-more-btn"></label>
+    </div>
+  </div>
+</section>
+
+    <!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill">
+    HTML
+    <div class="bar">
+      <div class="fill html" data-percent="90%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    CSS
+    <div class="bar">
+      <div class="fill css" data-percent="85%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    JavaScript
+    <div class="bar">
+      <div class="fill js" data-percent="70%"></div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <h2>Certifications</h2>
+
+      <div class="grid">
+        <article class="card">
+          <a href="html.jpg" target="_blank">
+            <img src="html.jpg" alt="Web Development Certificate" />
+          </a>
+          <h3>Web Development Certification</h3>
+          <p>Issued by Internshala</p>
+        </article>
+
+        <article class="card">
+          <a href="AI.jpg" target="_blank">
+            <img src="AI.jpg" alt="HTML & CSS Certificate" />
+          </a>
+          <h3>AI Tools and ChatGPT</h3>
+          <p>Issued by Be10X</p>
+        </article>
+
+        <article class="card">
+          <a href="IIDE.jpg" target="_blank">
+            <img src="IIDE.jpg" alt="Frontend Fundamentals Certificate" />
+          </a>
+          <h3>Productivity with AI</h3>
+          <p>Issued by IIDE</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="card project-card">
+          <img src="project1.jpg" alt="Personal Portfolio Website" />
+          <div class="project-info">
+            <h3>Personal Portfolio</h3>
+            <p>Responsive personal portfolio website</p>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="project2.jpg" alt="Landing Page Design" />
+          <div class="project-info">
+            <h3>Landing Page Design</h3>
+            <p>Modern landing page with clean UI</p>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="project3.jpg" alt="Responsive Business Website" />
+          <div class="project-info">
+            <h3>Business Website</h3>
+            <p>Fully responsive business website</p>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="project4.jpg" alt="Blog Website Project" />
+          <div class="project-info">
+            <h3>Blog Website</h3>
+            <p>Simple and responsive blog layout</p>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="project5.jpg" alt="E-commerce Website UI" />
+          <div class="project-info">
+            <h3>E-commerce UI</h3>
+            <p>Product listing and cart UI design</p>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="project6.jpg" alt="Dashboard UI Project" />
+          <div class="project-info">
+            <h3>Dashboard UI</h3>
+            <p>Responsive admin dashboard interface</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+
+        <input type="email" name="email" placeholder="Your Email" required />
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <a href="call:+919354768244" class="btn">Call</a>
+      <a href="email:believerjha@gmail.com" class="btn">Email</a>
+      <br />
+      <br />
+      <p>© 2026 Prahlad | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
